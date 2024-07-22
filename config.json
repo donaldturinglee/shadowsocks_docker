@@ -1,0 +1,13 @@
+{
+    "server": "my_server_ip",
+    "server_port": 8388,
+    "password": "mypassword",
+    "timeout": 300,
+    "method": "chacha20-ietf-poly1305",
+    "mode": "tcp_and_udp",
+    "nameserver": "8.8.8.8",
+    "plugin": "v2ray-plugin",
+    "plugin_opts": "server;tls;host=mydomain.me;cert=/etc/ssl/mydomain.me/fullchain.cer;key=/etc/ssl/mydomain.me/mydomain.me.key",
+    "reuse_port":true,
+    "no_delay":true
+}
